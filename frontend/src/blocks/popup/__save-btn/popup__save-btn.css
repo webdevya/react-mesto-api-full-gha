@@ -1,0 +1,40 @@
+.popup__save-btn {
+  /* margin: 48px 36px 37px; */
+  margin: 18px 36px 37px;
+  padding: 0;
+
+  height: 50px;
+  border: 0;
+  background: #000;
+  border-radius: 2px;
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+
+.popup__save-btn:hover {
+  opacity: .8;
+
+}
+
+
+/* Замена цвета внешней линии при фокусе кнопки */
+.popup__save-btn:focus {
+  outline-color: #fff6c5;
+}
+
+@media screen and (max-width: 719px) {
+  .popup__save-btn {
+    font-size: 14px;
+    line-height: 17px;
+    /* margin: 45px 22px 25px; */
+    margin: 15px 22px 25px;
+  }
+}

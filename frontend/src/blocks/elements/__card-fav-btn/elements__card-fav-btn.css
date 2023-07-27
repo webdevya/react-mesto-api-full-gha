@@ -1,0 +1,16 @@
+.elements__card-fav-btn {
+
+  min-width: 22px;
+  height: 19px;
+
+  background-image: url("../../../images/fav.svg");
+
+  border: 0;
+  padding: 0;
+  margin: 0 20px;
+  align-self: center;
+
+  display: block;
+
+
+}

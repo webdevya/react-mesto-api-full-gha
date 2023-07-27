@@ -1,0 +1,25 @@
+.header__menu-action {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-align: right;
+
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  height: 22px;
+  transition: opacity 0.3s ease;
+}
+
+.header__menu-action:hover {
+  opacity: .6;
+}

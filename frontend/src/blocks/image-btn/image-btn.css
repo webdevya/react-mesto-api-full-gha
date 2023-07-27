@@ -1,0 +1,8 @@
+.image-btn {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  background-position: center;
+}

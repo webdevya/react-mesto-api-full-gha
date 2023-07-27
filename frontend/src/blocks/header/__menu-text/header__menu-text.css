@@ -1,0 +1,22 @@
+.header__menu-text {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+
+  text-align: right;
+
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 907px) {
+  .header__menu-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

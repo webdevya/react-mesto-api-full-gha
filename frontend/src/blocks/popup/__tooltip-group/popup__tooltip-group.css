@@ -1,0 +1,11 @@
+.popup__tooltip-group {
+  min-height: 330px;
+}
+
+
+@media screen and (max-width: 719px) {
+  .popup__tooltip-group {
+    width: 280px;
+    min-height: 308px;
+  }
+}

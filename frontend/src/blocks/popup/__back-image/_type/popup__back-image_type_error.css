@@ -1,0 +1,6 @@
+.popup__back-image_type_error {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../../../images/error.png');
+}

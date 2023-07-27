@@ -1,0 +1,8 @@
+.elements__card-figure {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+}

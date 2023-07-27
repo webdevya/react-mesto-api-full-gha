@@ -1,0 +1,10 @@
+.elements__card {
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  /* white-space: nowrap;
+   */
+}

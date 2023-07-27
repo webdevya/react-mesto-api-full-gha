@@ -1,0 +1,25 @@
+.profile__add-card {
+
+
+  color: transparent;
+  min-width: 150px;
+  height: 50px;
+  padding: 0;
+  margin: 0;
+
+  background-image: url("../../../images/add_button.svg");
+
+  border: 2px solid #fff;
+  border-radius: 2px;
+
+  margin-left: auto;
+
+}
+
+
+@media screen and (max-width: 719px) {
+  .profile__add-card {
+    margin: 0;
+    width: 100%;
+  }
+}

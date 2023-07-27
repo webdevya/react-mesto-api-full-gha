@@ -1,0 +1,21 @@
+.popup__form-group {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  margin: auto;
+  position: relative; */
+  width: 430px;
+  /* min-height: 330px; */
+
+}
+
+
+
+@media screen and (max-width: 719px) {
+  .popup__form-group {
+    width: 282px;
+    min-height: 322px;
+  }
+}
