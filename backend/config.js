@@ -7,7 +7,7 @@ const {
   DB_URL = 'mongodb://127.0.0.1:27017/mestodb',
   JWT_SECRET = 'fffff71ac2582b2d853ff2afff136731a971798d24ebdd6eb80c9fe6adffffff',
   LOG_PATH = './logs',
-  ALLOWED = ['http://webdev.students.nomoredomains.sbs', 'https://webdev.students.nomoredomains.sbs', 'https://localhost:3000', 'http://localhost:3000'],
+  ALLOWED = 'https://webdev.students.nomoredomains.sbs',
 } = process.env;
 
 module.exports = {
