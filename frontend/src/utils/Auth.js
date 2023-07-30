@@ -33,7 +33,7 @@ class Auth extends ApiBase {
 const localUrls = { signinUrl: 'signin', signupUrl: 'signup', userLocalUrl: 'users/me' }
 
 const auth = new Auth({
-  baseUrl: 'http://localhost:3002/',//'https://auth.nomoreparties.co/',
+  baseUrl: 'https://api.webdev.students.nomoreparties.co/',//'https://auth.nomoreparties.co/',
   headers: {
     'Accept': 'application/json',
     'Content-Type': 'application/json'

@@ -52,7 +52,7 @@ class Api extends ApiBase {
 const localUrls = { cardLocalUrl: 'cards', cardLikeLocalUrl: 'likes', userLocalUrl: 'users/me', userAvatarLocalUrl: 'users/me/avatar' }
 
 const api = new Api({
-  baseUrl: 'http://localhost:3002/', //'https://mesto.nomoreparties.co/v1/cohort-64/',
+  baseUrl: 'https://api.webdev.students.nomoreparties.co/', //'https://mesto.nomoreparties.co/v1/cohort-64/',
   headers: {
     //authorization: 'fc81dab5-e143-401c-aaf5-84987c8320c2',
     'Content-Type': 'application/json'
