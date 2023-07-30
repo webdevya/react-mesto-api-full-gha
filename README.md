@@ -7,7 +7,7 @@
 
 ## Ссылки на проект
 
-IP-адрес 51.250.24.111
+IP 51.250.24.111
 
 Frontend https://webdev.students.nomoredomains.sbs
 
