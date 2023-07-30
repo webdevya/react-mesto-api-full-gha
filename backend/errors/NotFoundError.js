@@ -1,5 +1,5 @@
 const UserError = require('./UserError');
-const { NOT_FOUND } = require('./errorConstants');
+const { NOT_FOUND } = require('../utils/responseCodes');
 
 module.exports = class NotFoundError extends UserError {
   constructor(message) {

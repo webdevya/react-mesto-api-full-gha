@@ -8,6 +8,7 @@ const ConflictError = require('../errors/ConflictError');
 const { dataHandler } = require('../utils/dataHandler');
 
 const { JWT_SECRET } = require('../config');
+const { CREATED } = require('../utils/responseCodes');
 
 const notFoundText = 'Пользователь не найден';
 const validationErrorText = 'Ошибка вносимых данных для пользователя';
@@ -46,7 +47,7 @@ module.exports.createUser = (req, res, next) => {
   bcrypt.hash(password, 10)
     .then((hash) => User.create({
       name, about, avatar, email, password: hash,
-    })).then((data) => res.send(viewModelUser(data)))
+    })).then((data) => res.status(CREATED).send(viewModelUser(data)))
     .catch((err) => {
       if (err.code === 11000) {
         next(new ConflictError(conflictErrorText, err.message));

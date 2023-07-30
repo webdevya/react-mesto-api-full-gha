@@ -1,5 +1,5 @@
 const UserError = require('../errors/UserError');
-const { INTERNAL_SERVER_ERROR } = require('../errors/errorConstants');
+const { INTERNAL_SERVER_ERROR } = require('../utils/responseCodes');
 
 const errorLoggerHandler = (error) => {
   console.log(`error at ${new Date()} -  ${error.name}: ${error.message}\n${error.innerMessage}`);

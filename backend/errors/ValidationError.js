@@ -1,5 +1,5 @@
 const UserError = require('./UserError');
-const { BAD_REQUEST } = require('./errorConstants');
+const { BAD_REQUEST } = require('../utils/responseCodes');
 
 module.exports = class ValidationError extends UserError {
   constructor(message, innerMessage) {

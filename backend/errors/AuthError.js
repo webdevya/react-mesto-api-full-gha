@@ -1,6 +1,6 @@
 const UserError = require('./UserError');
 
-const { UNAUTHORIZED } = require('./errorConstants');
+const { UNAUTHORIZED } = require('../utils/responseCodes');
 
 module.exports = class AuthError extends UserError {
   constructor(message, innerMessage = '') {

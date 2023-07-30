@@ -5,6 +5,7 @@ const ValidationError = require('../errors/ValidationError');
 const Card = require('../models/card');
 const { createUserViewModel } = require('./user');
 const { dataHandler } = require('../utils/dataHandler');
+const { CREATED } = require('../utils/responseCodes');
 
 const notFoundText = 'Карточка не найдена';
 const validationErrorText = 'Ошибка вносимых данных для карточки';
@@ -31,7 +32,7 @@ const cardDataHandler = dataHandler(viewModelCard, notFoundText);
 module.exports.createCard = (req, res, next) => {
   const { name, link } = req.body;
   Card.create({ name, link, owner: req.user._id }).then((data) => {
-    res.send(viewModelCard(data));
+    res.status(CREATED).send(viewModelCard(data));
   })
     .catch((err) => {
       if (err instanceof mongoose.Error) {

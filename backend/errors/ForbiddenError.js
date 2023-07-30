@@ -1,5 +1,5 @@
 const UserError = require('./UserError');
-const { FORBIDDEN } = require('./errorConstants');
+const { FORBIDDEN } = require('../utils/responseCodes');
 
 module.exports = class ForbiddenError extends UserError {
   constructor() {

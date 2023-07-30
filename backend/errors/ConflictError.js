@@ -1,5 +1,5 @@
 const UserError = require('./UserError');
-const { CONFLICT } = require('./errorConstants');
+const { CONFLICT } = require('../utils/responseCodes');
 
 module.exports = class ConflictError extends UserError {
   constructor(message, innerMessage = '') {
